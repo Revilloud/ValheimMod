@@ -34,6 +34,7 @@ namespace Timber
             AddCreatures();
             AddRecipes();
             AddConversions();
+            AddPieces();
             UnloadAssetBundle();
 
             // Listen to event to know when all prefabs are registered
@@ -78,7 +79,7 @@ namespace Timber
         
         private void AddCookedTimberWolfMeat()
         {
-            var prefab = _embeddedResourceBundle.LoadAsset<GameObject>("Assets/CustomItems/CookedTimberWolfMeat.prefab");
+            var prefab = _embeddedResourceBundle.LoadAsset<GameObject>("Assets/CustomItems/TimberWolfMeatCooked.prefab");
             var customItem = new CustomItem(prefab, true);
             ItemManager.Instance.AddItem(customItem);
         }
@@ -128,7 +129,7 @@ namespace Timber
             fangRecipe.Item = "TheFang";
             fangRecipe.AddRequirement(new RequirementConfig("SwordIron",1));
             fangRecipe.AddRequirement(new RequirementConfig("TimberWolfFang",1));
-            fangRecipe.CraftingStation = "workbench";
+            fangRecipe.CraftingStation = "Anima";
             ItemManager.Instance.AddRecipe(new CustomRecipe(fangRecipe));
         }
         #endregion
@@ -184,8 +185,20 @@ namespace Timber
         }
         #endregion
 
-        #region "Spawners"
-        // Todo lo que sepamos de los spawners.
+        #region "Pieces"
+        private void AddPieces()
+        {
+            AddAnima();
+        }
+
+        private void AddAnima()
+        {
+            PieceConfig pieceConfig = new PieceConfig();
+            pieceConfig.PieceTable = "Hammer";
+            RequirementConfig pieceRequirementConfig = new RequirementConfig("Wood",2,0,false);
+            pieceConfig.AddRequirement(pieceRequirementConfig);
+            PieceManager.Instance.AddPiece(new CustomPiece(_embeddedResourceBundle, "Anima", pieceConfig));
+        }
         #endregion
     }
 }
