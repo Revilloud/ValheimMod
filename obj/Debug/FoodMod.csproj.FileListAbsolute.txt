@@ -1,0 +1,15 @@
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\FoodMod.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\FoodMod.pdb
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\0Harmony.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\assembly_utils.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\assembly_valheim.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\BepInEx.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\Jotunn.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\bin\Debug\UnityEngine.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\obj\Debug\FoodMod.csproj.AssemblyReference.cache
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\obj\Debug\FoodMod.csproj.CoreCompileInputs.cache
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\obj\Debug\FoodMod.csproj.CopyComplete
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\obj\Debug\FoodMod.dll
+C:\Users\rarev\RiderProjects\FoodMod\FoodMod\obj\Debug\FoodMod.pdb
